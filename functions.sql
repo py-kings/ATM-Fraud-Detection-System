@@ -1,1 +1,20 @@
 -- MySQL functions here
+DELIMITER $$
+
+CREATE FUNCTION GET_RISK_LEVEL(amount DECIMAL(10,2))
+RETURNS VARCHAR(20)
+BEGIN
+
+    IF amount >= 100000 THEN
+        RETURN 'HIGH';
+
+    ELSEIF amount >= 50000 THEN
+        RETURN 'MEDIUM';
+
+    ELSE
+        RETURN 'LOW';
+
+    END IF;
+
+END $$
+DELIMITER ;
