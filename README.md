@@ -19,3 +19,7 @@
 
 ```bash
 streamlit run app.py
+
+1.create database "atm_fraud"
+2.create folder inside it create the app.py & import_csv.py
+3.
