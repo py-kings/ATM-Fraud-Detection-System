@@ -1,8 +1,8 @@
---import file
+#import file
 
 import pandas as pd
 import mysql.connector
-
+# DOWNLOAD & PUT THE FILE PATH
 df = pd.read_csv(r"C:\Users\samad\Downloads\creditcard.csv")
 
 df = df[['Time', 'Amount', 'Class']]
