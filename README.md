@@ -6,9 +6,11 @@
 - Python
 - Streamlit
 
-## Features
+## Features (Pl- SQL)
 - Fraud Detection
+- Procedures
 - Triggers
+- Functions
 - Dashboard
 - Pie Chart
 - Kaggle Dataset Analysis
