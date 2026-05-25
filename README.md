@@ -2,7 +2,8 @@
 # ATM Fraud Detection System
 
 ## Technologies
-- MySQL
+- Pl- SQL
+- MySQL 
 - Python
 - Streamlit
 
